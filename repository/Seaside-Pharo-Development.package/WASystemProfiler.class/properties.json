@@ -1,16 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "WATool",
+	"super" : "Object",
 	"category" : "Seaside-Pharo-Development-Core-Profiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"report",
-		"items",
-		"message",
-		"flameGraph"
+		"ticksPerMillisecond",
+		"profilerProcess",
+		"profileSemaphore",
+		"root"
 	],
-	"name" : "WAProfilerTool",
+	"name" : "WASystemProfiler",
 	"type" : "normal"
 }
