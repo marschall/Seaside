@@ -5,7 +5,6 @@ baselinepharo: spec
 		for: #squeakCommon
 		do: [ spec
 				package: 'Seaside-Canvas' with: [ spec includes: #('Seaside-Pharo-Canvas') ];
-				package: 'Seaside-Development' with: [ spec includes: #('Seaside-Pharo-Development') ];
 				package: 'Seaside-Environment' with: [ spec includes: #('Seaside-Pharo-Environment') ];
 				package: 'Seaside-Flow' with: [ spec includes: #('Seaside-Pharo-Flow') ];
 				package: 'Seaside-Tests-Development' with: [ spec includes: #('Seaside-Tests-Pharo-Development') ];
@@ -23,6 +22,7 @@ baselinepharo: spec
 		do: [ spec
 				package: 'Seaside-Core' with: [ spec includes: #('Seaside-Pharo-Core') ];
 				package: 'Seaside-Pharo-Core' with: [ spec requires: #('Seaside-Core') ];
+				package: 'Seaside-Development' with: [ spec includes: #('Seaside-Pharo-Development') ];
 				package: 'Seaside-Email' with: [ spec includes: #('Seaside-Pharo-Email') ];
 				package: 'Seaside-Pharo-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Pharo-Core') ];
 				package: 'Seaside-Tools-Web' with: [ spec includes: #('Seaside-Pharo-Tools-Web') ];

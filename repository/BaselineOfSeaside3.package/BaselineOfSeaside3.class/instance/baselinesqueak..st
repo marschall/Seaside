@@ -10,7 +10,7 @@ baselinesqueak: spec
 				package: 'Seaside-Core' with:[ spec includes: #('Seaside-Squeak-Core') ];
 				package: 'Seaside-Email' with: [ spec includes: #('Seaside-Squeak-Email') ];
 				package: 'Seaside-Tools-Web' with: [ spec includes: #('Seaside-Squeak-Tools-Web') ];
-				package: 'Seaside-Pharo-Development' with: [ spec requires: #('Seaside-Development' 'Seaside-Squeak-Tools-Web' 'Seaside-Pharo-Flow') ];
+				package: 'Seaside-Squeak-Development' with: [ spec requires: #('Seaside-Development' 'Seaside-Squeak-Tools-Web' 'Seaside-Pharo-Flow') ];
 				package: 'Seaside-Squeak-Tools-Web' with: [ spec requires: #('Seaside-Tools-Web' 'Seaside-Core' 'Seaside-Canvas') ];
 				package: 'Seaside-Squeak-Continuation' with: [ spec requires: #('Seaside-Core') ];
 				package: 'Seaside-Pharo-Flow' with: [ spec requires: #('Seaside-Flow' 'Seaside-Squeak-Continuation') ];
