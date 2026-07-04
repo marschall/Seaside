@@ -1,1 +1,0 @@
-A WAInspector for Squeak; different to the Pharo version in the evaluate implementation
