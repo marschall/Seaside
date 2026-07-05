@@ -21,6 +21,7 @@ baselinesqueak: spec
 				package: 'Seaside-Tests-Pharo-Functional' with: [ spec requires: #('Seaside-Tests-Squeak-Core') ];
 				package: 'Seaside-Squeak-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Squeak-Core') ];
 				package: 'Seaside-Tests-Email' with: [ spec includes: #('Seaside-Tests-Squeak-Email') ];
+				package: 'Seaside-Tests-Pharo-Development' with: [ spec requires: #('Seaside-Tests-Development' 'Seaside-Squeak-Development') ];
 				package: 'Seaside-Tests-Squeak-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Squeak-Email' 'Grease Core Tests') ];
 				
 				"ToolBuilder based tools"
