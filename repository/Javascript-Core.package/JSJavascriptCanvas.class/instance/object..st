@@ -1,3 +1,3 @@
 public
 object: aBlock
-	^ (self brush: JSJavasciptObjectBrush new) with: aBlock
+	^ (self brush: JSJavascriptObjectBrush new) with: aBlock
