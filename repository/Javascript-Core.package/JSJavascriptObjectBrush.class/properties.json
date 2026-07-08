@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "JSJavasciptObjectBrush",
+	"name" : "JSJavascriptObjectBrush",
 	"type" : "normal"
 }
