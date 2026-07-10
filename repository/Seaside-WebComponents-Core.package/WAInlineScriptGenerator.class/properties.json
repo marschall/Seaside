@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "2026-07-10T11:20:06.109381+03:00",
-	"super" : "WAObject",
+	"commentStamp" : "2026-07-10T11:04:35.38703+03:00",
+	"super" : "WAScriptGenerator",
 	"category" : "Seaside-WebComponents-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WANilHtmlRoot",
+	"name" : "WAInlineScriptGenerator",
 	"type" : "normal"
 }
